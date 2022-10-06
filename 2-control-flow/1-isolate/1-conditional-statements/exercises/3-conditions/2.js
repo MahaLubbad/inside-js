@@ -14,9 +14,9 @@ const value1 = null;
 const value2 = 400;
 let path = '';
 
-if (_) {
+if ( value1!== null && value2 !== null) {
   path = 'if';
-} else if (_) {
+} else if ( typeof value1=== 'number' || typeof value2 === 'number') {
   path = 'else if';
 } else {
   path = 'else';

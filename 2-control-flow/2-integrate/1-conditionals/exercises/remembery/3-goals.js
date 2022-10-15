@@ -43,3 +43,10 @@ if (randomFrom1To3 === 1) {
 /* -- BEGIN: check if the user was correct and let them know -- */
 
 /* -- END: check if the user was correct and let them know -- */
+
+let guessIsCorrect = correctAnswer === attempt;
+if ( guessIsCorrect){
+  alert( 'Bravo! Your guess is correct ')
+}else{
+  alert('Nope :( That is NOT right')
+}

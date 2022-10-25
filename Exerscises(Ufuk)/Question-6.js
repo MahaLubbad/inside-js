@@ -2,13 +2,13 @@
 
 
 const calculateEarnings = (inComeArr , outComeArr , day )=>{
-  weekdayArr = ['Monday' , 'Tuesday' , 'Wedneday' , 'Thursday' , 'Friday' , 'Saturday' , 'Sunday'];
+  weekdayArr = ['monday' , 'tuesday' , 'wedneday' , 'thursday' , 'friday' , 'saturday' , 'Sunday'];
    
   let sum = 0;
   for (let i = 0 ;i < weekdayArr.length; i++ ){
 
     sum += inComeArr[i] + outComeArr[i] ;
-   if(day === weekdayArr[i]){
+   if(day.toLowerCase() === weekdayArr[i]){
      break;
    }
   }

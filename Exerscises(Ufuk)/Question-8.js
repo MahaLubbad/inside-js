@@ -10,7 +10,7 @@ You must use SLICE method
 
 const extractTheOrderOfSuccess = (nameArr ,startNum , endNum) =>{
 
-  return nameArr.slice(startNum ,endNum);
+  return nameArr.slice(startNum -1 ,endNum);
 
 }
 
